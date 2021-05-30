@@ -1,12 +1,13 @@
 package at.ac.fhcampuswien;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class checkPasswordTest {
+public class AppTest {
+
     @Test
     public void myTest(){
         assertTrue(true);
-
     }
 }
