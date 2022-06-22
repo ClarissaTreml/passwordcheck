@@ -1,6 +1,5 @@
 package at.ac.fhcampuswien;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -51,7 +50,7 @@ public class PasswordTest {
     }
 
     @Test
-    @DisplayName("Has no letters")
+    @DisplayName("Has letters")
     public void checkPassword_letters(){
         Password pw = new Password();
         assertTrue(pw.checkPassword("a112!223?344@"));
